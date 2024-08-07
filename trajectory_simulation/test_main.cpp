@@ -19,7 +19,6 @@ int main() {
     rocket.setAcceleration();
 
     // Compute final results
-    rocket.setFinalPosition();
     rocket.setFinalVelocity();
 
     // Output results

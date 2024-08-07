@@ -50,7 +50,7 @@ void Kinematics::setAcceleration() {
 }
 
 // Final setters
-void Kinematics::setFinalPosition() {
+void Kinematics::setInitialPosition() {
     /*
     Using the intial velocity, launch angle and acceleration
 
@@ -134,7 +134,20 @@ double Kinematics::getFinalVelocity() {
     return finalvelocity; // Placeholder return value
 }
 
+/*
 double Kinematics::getMaxPosition(){
+    /*
+    Check for max Position in the Y direction when the launch angle is 90
+    - this would occue when velocity = 0
+    - just going to check if final velo is equal to zero
+    
 
-}
+
+    if(launchAngle == 90 && finalvelocity == 0){
+        double y_velo_init = velocity*std::sin(launchAngle);
+        double x_velo_init = velocity*std::cos(launchAngle);
+
+    }
+    */
+
 
