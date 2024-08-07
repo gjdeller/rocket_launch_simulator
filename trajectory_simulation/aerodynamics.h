@@ -22,7 +22,7 @@ class Aerodynamics{
         double dragCoeff;
         double surfaceArea;
         double airDensity;
-        double drag;
+       
 
 };
 

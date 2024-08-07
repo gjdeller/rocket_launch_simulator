@@ -9,7 +9,6 @@
     Inputs: velocity from kinematics, orientation data from Rocket, air density from Environment
 
     Outputs: Aerodynamics forces (drag, lift)
-
 */
 
 //Constructor
